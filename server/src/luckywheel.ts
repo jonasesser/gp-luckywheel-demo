@@ -1,5 +1,5 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
+import * as Athena from '@AthenaServer/api/index.js';
 
 // There can only be one lucky wheel on the server
 const maxEntitiesInStream = 1;

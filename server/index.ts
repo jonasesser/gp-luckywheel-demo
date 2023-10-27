@@ -1,6 +1,6 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
-import { LuckywheelServer } from './src/luckywheel';
+import * as Athena from '@AthenaServer/api/index.js';
+import { LuckywheelServer } from './src/luckywheel.js';
 
 const PLUGIN_NAME = 'gp-luckywheel';
 
